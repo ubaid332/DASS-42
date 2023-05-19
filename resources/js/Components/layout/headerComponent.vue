@@ -1,58 +1,19 @@
 <template>
   <div class="header-section">
                     <!--logo and logo icon start-->
-                    <div class="logo">
-                        <a href="index.html">
-                            
-                            <!--<i class="fa fa-maxcdn"></i>-->
-                            <span class="brand-name">DASS-42 APP</span>
-                        </a>
-                    </div>
+                   
 
                     <!--toggle button start-->
                     <a class="toggle-btn"><i class="ti ti-menu"></i></a>
                     <!--toggle button end-->
 
-                    <!--mega menu start-->
-                    <div id="navbar-collapse-1" class="navbar-collapse collapse mega-menu">
-                        <ul class="nav navbar-nav">                           
-                            <!-- Classic dropdown -->
-                            <li class="dropdown">
-                                <a href="javascript:;" data-toggle="dropdown" class=""> English <i class="mdi mdi-chevron-down"></i> </a>
-                                <ul role="menu" class="dropdown-menu language-switch">
-                                    <li>
-                                        <a tabindex="-1" href="javascript:;"> German </a>
-                                    </li>
-                                    <li>
-                                        <a tabindex="-1" href="javascript:;"> Italian </a>
-                                    </li>
-                                    <li>
-                                        <a tabindex="-1" href="javascript:;"> French </a>
-                                    </li>
-                                    <li>
-                                        <a tabindex="-1" href="javascript:;"> Spanish </a>
-                                    </li>
-                                    <li>
-                                        <a tabindex="-1" href="javascript:;"> Russian </a>
-                                    </li>
-                                </ul>
-                            </li>
-                             <!-- Classic list -->
-                            <li>
-                                <form class="search-content" action="index.html" method="post">
-                                    <input type="text" class="form-control mt-3" name="keyword" placeholder="Search...">
-                                    <span class="search-button"><i class="ti ti-search"></i></span>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--mega menu end-->
+                    
 
                     <div class="notification-wrap">
                         <!--right notification start-->
                         <div class="right-notification">
                             <ul class="notification-menu">
-                                <li>
+                                <!-- <li>
                                     <a href="javascript:;" class="notification" data-toggle="dropdown">
                                         <i class="mdi mdi-bell-outline"></i>
                                         <span class="badge badge-success">4</span>
@@ -168,16 +129,16 @@
                                             <a class="text-center bg-light" href="javascript:void(0);"> <strong>See all notifications</strong> </a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
 
                                 <li>
                                     <a href="javascript:;" data-toggle="dropdown">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="">
+                                        <img src="assets/images/users/240-240.jpg" alt="">
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right profile-menu">
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5 text-muted"></i> Profile</a>
+                                        <!-- <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5 text-muted"></i> Profile</a>
                                         <a class="dropdown-item" href="#"><span class="badge badge-success pull-right">5</span><i class="mdi mdi-settings m-r-5 text-muted"></i> Settings</a>
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline m-r-5 text-muted"></i> Lock screen</a>
+                                        <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline m-r-5 text-muted"></i> Lock screen</a> -->
                                         <router-link to="/logout" class="dropdown-item" href="#"><i class="mdi mdi-logout m-r-5 text-muted"></i> Logout</router-link>
                                     </div>
 

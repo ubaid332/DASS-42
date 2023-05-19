@@ -7,39 +7,34 @@
                         <li class="active">
                             <router-link to="/dashboard"><i class="mdi mdi-gauge"></i> <span>Dashboard</span></router-link>
                         </li>
-                        <li class="menu-list"><a href=""><i class="mdi mdi-buffer"></i> <span>UI Elements</span></a>
-                            <ul class="child-list">
-                                <li><a href="ui-typography.html"> Typography</a></li>
-                                <li><a href="ui-buttons.html"> Buttons</a></li>
-                                <li><a href="ui-cards.html"> Cards</a></li>
-                                <li><a href="ui-tabs.html"> Tab & Accordions</a></li>
-                                <li><a href="ui-modals.html"> Modals</a></li>
-                                <li><a href="ui-bootstrap.html"> BS Elements</a></li>
-                                <li><a href="ui-progressbars.html"> Progress Bars</a></li>
-                                <li><a href="ui-notification.html">Notification</a></li>
-                                <li><a href="ui-carousel.html"> Carousel</a></li>
-                            </ul>
-                        </li>
+                        
                         <li>
-                            <h3 class="navigation-title">Components</h3>
+                            <h3 class="navigation-title">DASS Servey Forms</h3>
                         </li>
-                        <li class="menu-list"><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Category</span></router-link>
+                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>DASS-42</span></router-link>
+                          
                         </li>
-                        <li class="menu-list"><a href=""><i class="mdi mdi-diamond"></i> <span>Icons</span></a>
-                            <ul class="child-list">
-                                <li><a href="icons-material.html"> Material Design</a></li>
-                                <li><a href="icons-font-awesome.html"> Font Awesome</a></li>
-                                <li><a href="icons-themify.html"> Themify</a></li>
-                            </ul>
+
+                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Anxiety-14</span></router-link>
+                          
                         </li>
-                        <li class="menu-list"><a href="javascript:;"><i class="mdi mdi-table"></i> <span>Tables</span></a>
+
+                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Stress-14</span></router-link>
+                          
+                        </li>
+
+                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Depression-14</span></router-link>
+                          
+                        </li>
+                        
+                        <!-- <li class="menu-list"><a href="javascript:;"><i class="mdi mdi-table"></i> <span>Tables</span></a>
                             <ul class="child-list">
                                 <li><a href="tables-basic.html"> Basic Table</a></li>
                                 <li><a href="tables-datatable.html"> Data Table</a></li>
                                 <li><a href="tables-editable.html"> Editable </a></li>
                                 <li><a href="tables-responsive.html"> Responsive Table </a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
 </template>
 

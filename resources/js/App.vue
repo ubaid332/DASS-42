@@ -1,15 +1,23 @@
 <template>
     <section>
+        <div class="logo" v-if="loggedIn">
+                        <a href="index.html">
+                            
+                            <!--<i class="fa fa-maxcdn"></i>-->
+                            <span class="brand-name">DASS-42 APP</span>
+                        </a>
+                    </div>
             <!-- sidebar left start-->
             <div class="sidebar-left" v-if="loggedIn">
+                
                 <div class="sidebar-left-info">
 
                     <div class="user-box">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/users/avatar-1.jpg" alt="" class="img-fluid rounded-circle"> 
+                            <img src="assets/images/users/240-240.jpg" alt="" class="img-fluid rounded-circle"> 
                         </div>
                         <div class="text-center text-white mt-2">
-                            <h6>Travis Watson</h6>
+                            <h6> {{ username }} </h6>
                             <p class="text-muted m-0">Admin</p>
                         </div>
                     </div>   
@@ -34,7 +42,7 @@
 
                 <!--footer section start-->
                 <footer class="footer" v-if="loggedIn">
-                    2018 &copy; Syntra.
+                    2023 &copy; Ubaid Ullah
                 </footer>
                 <!--footer section end-->
 
@@ -64,6 +72,7 @@ export default{
     data(){
         return{
             loggedIn:User.loggedIn(),
+            username: User.name()
         }
     },
     methods:{

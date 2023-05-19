@@ -65,7 +65,7 @@
 
                 <!--footer section start-->
                 <footer class="footer">
-                    2018 &copy; Syntra.
+                    2023 &copy; Ubaid Ullah
                 </footer>
                 <!--footer section end-->
 
