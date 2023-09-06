@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
-use App\Http\Controllers\Api\CategoryController;
+use App\Http\Controllers\Dass42Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,6 +37,8 @@ Route::group([
     Route::post('password_change',[AuthController::class, 'passwordChange']);
 });
 
+Route::apiResource('/dass42', Dass42Controller::class);
+
 Route::middleware('auth.api')->group(function () {
-    Route::resource('/category', CategoryController::class);
+    
  });

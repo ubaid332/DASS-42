@@ -20,6 +20,11 @@ window.AppStorage = AppStorage;
 window.Noty = Noty;
 window.Notification = Notification;
 
+const token = localStorage.getItem('token');
+axios.defaults.headers.common['Authorization'] = "Bearer "+token;
+
+
+
 
 window.Toast = Swal.mixin({
     toast: true,

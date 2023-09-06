@@ -11,21 +11,23 @@
                         <li>
                             <h3 class="navigation-title">DASS Servey Forms</h3>
                         </li>
-                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>DASS-42</span></router-link>
+                        <li><router-link to="/dass_42"><i class="mdi mdi-google-circles-extended"></i> <span>DASS-42</span></router-link>
                           
                         </li>
 
-                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Anxiety-14</span></router-link>
+                        <li><router-link to="/anxiety_4"><i class="mdi mdi-google-circles-extended"></i> <span>Anxiety-4</span></router-link>
                           
                         </li>
 
-                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Stress-14</span></router-link>
+                        <li><router-link to="/depression_4"><i class="mdi mdi-google-circles-extended"></i> <span>Depression-4</span></router-link>
                           
                         </li>
 
-                        <li><router-link to="/category"><i class="mdi mdi-google-circles-extended"></i> <span>Depression-14</span></router-link>
+                        <li><router-link to="/stress_4"><i class="mdi mdi-google-circles-extended"></i> <span>Stress-4</span></router-link>
                           
                         </li>
+
+                        
                         
                         <!-- <li class="menu-list"><a href="javascript:;"><i class="mdi mdi-table"></i> <span>Tables</span></a>
                             <ul class="child-list">

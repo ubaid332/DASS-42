@@ -1,5 +1,5 @@
 <template>
-     <div class="row">
+     <div class="row" v-if="!loggedIn">
                     <div class="col-lg-12 col-sm-12">
                         <div class="wrapper-page">
                             <div class="account-pages">
@@ -64,6 +64,7 @@ export default {
             email:null,
             password:null
            },
+           loggedIn:User.loggedIn(),
         }
     },
     methods:{
